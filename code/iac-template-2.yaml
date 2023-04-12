@@ -1,0 +1,30 @@
+# IaC Template 2
+# 2 EC2 with latest Amazon Linux 2023 and 2 Bucket
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+    MyEC2Instance:
+        Type: AWS::EC2::Instance
+        Properties:
+            ImageId: ami-00c39f71452c08778
+            InstanceType: t2.micro
+            Tags:
+                - Key: Name
+                  Value: EC2-AMI-Linux-2023
+
+    MyEC2Instance2:
+        Type: AWS::EC2::Instance
+        Properties:
+            ImageId: ami-00c39f71452c08778
+            InstanceType: t2.micro
+            Tags:
+                - Key: Name
+                  Value: EC2-AMI-Linux-2023-2
+    S3Bucket:
+        Type: AWS::S3::Bucket
+        Properties:
+            BucketName: iac-bucket-number-1
+
+    S3Bucket2:
+        Type: AWS::S3::Bucket
+        Properties:
+            BucketName: iac-bucket-number-2
