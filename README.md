@@ -1,4 +1,4 @@
-# Automating the provisioning of Cloud Infrastructures using IaC and Cloud Services
+# Automating the Provisioning of Cloud Infrastructures using IaC and Cloud Services
 
 ## Architecture
 
@@ -29,5 +29,8 @@ git commit -m "First Infra"
 git push
 ```
 
-4. 
+4. Create a CodePipeline
+a. Set-up the CodePipeline
+![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%20a-1.png)
+![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%20a-2.png)
 
