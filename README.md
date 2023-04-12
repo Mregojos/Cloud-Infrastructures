@@ -52,3 +52,26 @@ a. CodePipeline
 
 b. CloudFormation
 ![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%205-b.png)
+
+6. Update the infrastructure
+
+a. Use IaC Template 2 and push it to the repository
+```sh
+# Add file: IaC Template 2
+
+# Push to the repository
+git add .
+git commit -m "Update Infra"
+git push
+```
+
+b. CodePipelie
+![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%206-a.png)
+
+c. CloudFormation
+![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CloudFormation%206-b.png)
+> The Infrastructure has successfully updated!
+
+7. Clean Up
+* Delete the pipeline and IAM role for CloudFormation
+* Delete the CloudFormation Stack
