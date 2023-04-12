@@ -1,4 +1,4 @@
-# Cloud-Infrastructures
+# Automating Cloud Infrastructures with IaC and Cloud Services
 
 ## Architecture
 
