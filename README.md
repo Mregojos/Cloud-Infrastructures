@@ -4,8 +4,10 @@
 
 ![Architecture](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/Architecture.png?raw=true)
 
-## Tasks
+## Objective
 * Automate the provisioning of cloud infrastructures
+
+## Tasks
 
 By using the console:
 1. Create IaC Templates ([IaC-template-1.yaml](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/code/IaC-template-1.yaml) and [IaC-template-2.yaml](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/code/IaC-template-2.yaml))
