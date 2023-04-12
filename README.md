@@ -34,3 +34,7 @@ a. Set-up the CodePipeline
 ![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%20a-1.png)
 ![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%20a-2.png)
 
+b. Create an IAM role for CloudFormation
+![](https://github.com/Mregojos/Cloud-Infrastructures/blob/main/images/CodePipeline%20b.png)
+
+c. 
